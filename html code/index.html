@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <!-- Optional: a webfont (you can remove this line if you want fully local) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body style="margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;line-height:1.4;color:#111;background:#fbfbfd;">
+
+  <!-- Header -->
+  <header style="display:flex;align-items:center;justify-content:space-between;padding:20px 24px;background:linear-gradient(90deg,#ffffff, #f7f8fc);box-shadow:0 2px 8px rgba(20,20,50,0.04);position:sticky;top:0;z-index:20;">
+    <div style="display:flex;align-items:center;gap:12px;">
+      <div style="width:44px;height:44px;border-radius:8px;background:#111;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:18px;">YN</div>
+      <div style="display:flex;flex-direction:column;">
+        <span style="font-weight:600;">Your Name</span>
+        <span style="font-size:12px;color:#6b7280;">Product Designer • Frontend Dev</span>
+      </div>
+    </div>
+
+    <nav aria-label="Main navigation" style="display:flex;gap:16px;align-items:center;">
+      <a href="#projects" style="text-decoration:none;color:#111;font-weight:600;">Projects</a>
+      <a href="#about" style="text-decoration:none;color:#111;font-weight:600;">About</a>
+      <a href="#contact" style="text-decoration:none;color:#111;font-weight:600;">Contact</a>
+      <a href="resume.pdf" style="padding:8px 12px;border-radius:8px;background:#111;color:#fff;text-decoration:none;font-weight:600;" target="_blank" rel="noopener">Resume</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" style="padding:56px 24px;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between;">
+    <div style="flex:1 1 360px;max-width:720px;">
+      <h1 style="margin:0 0 12px;font-size:clamp(28px,5vw,44px);line-height:1.02;">Hi — I'm <span style="color:#0f62fe;">Your Name</span>, I build beautiful web experiences.</h1>
+      <p style="margin:0 0 18px;color:#374151;max-width:56ch;">I am a frontend developer and designer focused on crafting fast, accessible, and delightful user interfaces. I enjoy turning complex problems into simple, elegant solutions.</p>
+      <div style="display:flex;gap:12px;">
+        <a href="#projects" style="padding:12px 18px;border-radius:10px;background:#0f62fe;color:#fff;text-decoration:none;font-weight:600;">See projects</a>
+        <a href="#contact" style="padding:12px 18px;border-radius:10px;border:1px solid #e6e9f2;color:#111;text-decoration:none;font-weight:600;">Get in touch</a>
+      </div>
+    </div>
+
+    <div style="flex:0 1 280px;display:flex;align-items:center;justify-content:center;">
+      <img alt="Stylized portrait placeholder" src="https://via.placeholder.com/260x260.png?text=Photo" style="width:260px;height:260px;border-radius:18px;object-fit:cover;box-shadow:0 10px 30px rgba(15,20,60,0.08);border:1px solid rgba(15,20,60,0.04);" />
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" style="padding:32px 24px 64px;">
+    <h2 style="margin:0 0 16px;font-size:22px;">Selected projects</h2>
+
+    <div style="display:flex;flex-wrap:wrap;gap:18px;">
+      <!-- Project card (repeat / duplicate for more) -->
+      <article style="flex:1 1 300px;min-width:260px;background:#fff;border-radius:14px;padding:16px;border:1px solid #eef2ff;box-shadow:0 6px 18px rgba(12,15,40,0.03);">
+        <img alt="Project screenshot" src="https://via.placeholder.com/600x320.png?text=Project+1" style="width:100%;height:160px;object-fit:cover;border-radius:10px;margin-bottom:12px;" />
+        <h3 style="margin:0 0 8px;font-size:16px;">Project One</h3>
+        <p style="margin:0 0 12px;color:#52575c;font-size:14px;">Brief summary: a responsive web app that helps users track tasks and collaborate in realtime.</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <a href="#" style="text-decoration:none;padding:8px 10px;border-radius:8px;border:1px solid #e6e9f2;font-weight:600;font-size:13px;">Case study</a>
+          <a href="#" style="text-decoration:none;padding:8px 10px;border-radius:8px;background:#0f62fe;color:#fff;font-weight:600;font-size:13px;">Live demo</a>
+        </div>
+      </article>
+
+      <article style="flex:1 1 300px;min-width:260px;background:#fff;border-radius:14px;padding:16px;border:1px solid #eef2ff;box-shadow:0 6px 18px rgba(12,15,40,0.03);">
+        <img alt="Project screenshot" src="https://via.placeholder.com/600x320.png?text=Project+2" style="width:100%;height:160px;object-fit:cover;border-radius:10px;margin-bottom:12px;" />
+        <h3 style="margin:0 0 8px;font-size:16px;">Project Two</h3>
+        <p style="margin:0 0 12px;color:#52575c;font-size:14px;">Mobile-first e-commerce prototype with performant animations and accessible interactions.</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <a href="#" style="text-decoration:none;padding:8px 10px;border-radius:8px;border:1px solid #e6e9f2;font-weight:600;font-size:13px;">Case study</a>
+          <a href="#" style="text-decoration:none;padding:8px 10px;border-radius:8px;background:#0f62fe;color:#fff;font-weight:600;font-size:13px;">Live demo</a>
+        </div>
+      </article>
+
+      <article style="flex:1 1 300px;min-width:260px;background:#fff;border-radius:14px;padding:16px;border:1px solid #eef2ff;box-shadow:0 6px 18px rgba(12,15,40,0.03);">
+        <img alt="Project screenshot" src="https://via.placeholder.com/600x320.png?text=Project+3" style="width:100%;height:160px;object-fit:cover;border-radius:10px;margin-bottom:12px;" />
+        <h3 style="margin:0 0 8px;font-size:16px;">Project Three</h3>
+        <p style="margin:0 0 12px;color:#52575c;font-size:14px;">Design system and component library used across multiple teams to speed up delivery.</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap;">
+          <a href="#" style="text-decoration:none;padding:8px 10px;border-radius:8px;border:1px solid #e6e9f2;font-weight:600;font-size:13px;">Case study</a>
+          <a href="#" style="text-decoration:none;padding:8px 10px;border-radius:8px;background:#0f62fe;color:#fff;font-weight:600;font-size:13px;">Live demo</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" style="padding:32px 24px;background:linear-gradient(180deg,#fff,#fbfbfd);">
+    <div style="max-width:960px;margin:0 auto;display:flex;flex-wrap:wrap;gap:18px;">
+      <div style="flex:1 1 360px;">
+        <h2 style="margin-top:0;margin-bottom:12px;">About me</h2>
+        <p style="margin:0 0 12px;color:#374151;">I design and build interfaces with a focus on accessibility, performance, and clarity. My stack includes HTML, CSS, JavaScript (vanilla + React), and design tools like Figma. I collaborate closely with product teams to iterate quickly and ship meaningful value.</p>
+        <ul style="margin:0;padding-left:20px;color:#374151">
+          <li>Frontend (React, TypeScript)</li>
+          <li>Design systems & accessibility</li>
+          <li>Performance optimizations & testing</li>
+        </ul>
+      </div>
+
+      <div style="flex:0 1 260px;background:#fff;border-radius:12px;padding:16px;border:1px solid #eef2ff;box-shadow:0 6px 18px rgba(12,15,40,0.03);">
+        <h3 style="margin:0 0 12px;font-size:16px;">Quick facts</h3>
+        <p style="margin:0 0 8px;"><strong>Based in:</strong> City, Country</p>
+        <p style="margin:0 0 8px;"><strong>Open to:</strong> Freelance & full-time</p>
+        <p style="margin:0;"><strong>Availability:</strong> Immediately</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" style="padding:36px 24px;">
+    <div style="max-width:760px;margin:0 auto;background:#fff;padding:20px;border-radius:12px;border:1px solid #eef2ff;box-shadow:0 8px 28px rgba(12,15,40,0.04);display:flex;flex-wrap:wrap;gap:16px;">
+      <div style="flex:1 1 320px;">
+        <h2 style="margin:0 0 8px;">Contact</h2>
+        <p style="margin:0 0 12px;color:#374151;">Let's build something together. Drop me a line and I'll get back to you.</p>
+        <p style="margin:0 0 6px;"><strong>Email</strong><br><a href="mailto:you@example.com" style="color:#0f62fe;text-decoration:none;">you@example.com</a></p>
+        <p style="margin:0;"><strong>LinkedIn</strong><br><a href="#" style="color:#0f62fe;text-decoration:none;">linkedin.com/in/yourname</a></p>
+      </div>
+
+      <form style="flex:1 1 320px;display:flex;flex-direction:column;gap:10px;" onsubmit="event.preventDefault();alert('This demo form does not submit — replace with your backend or form provider.');">
+        <input aria-label="Name" required placeholder="Your name" style="padding:12px;border-radius:8px;border:1px solid #e6e9f2;font-size:14px;" />
+        <input aria-label="Email" type="email" required placeholder="Email address" style="padding:12px;border-radius:8px;border:1px solid #e6e9f2;font-size:14px;" />
+        <textarea aria-label="Message" required placeholder="Message" rows="4" style="padding:12px;border-radius:8px;border:1px solid #e6e9f2;font-size:14px;"></textarea>
+        <div style="display:flex;justify-content:flex-end;">
+          <button type="submit" style="padding:10px 16px;border-radius:10px;background:#0f62fe;color:#fff;border:0;font-weight:700;">Send message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer style="padding:20px 24px;text-align:center;color:#6b7280;font-size:14px;">
+    <div style="max-width:900px;margin:0 auto;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;">
+      <div>© <strong>Your Name</strong> — <span style="color:#374151;">2025</span></div>
+      <div style="display:flex;gap:12px;">
+        <a href="#" style="text-decoration:none;color:#6b7280;">Twitter</a>
+        <a href="#" style="text-decoration:none;color:#6b7280;">GitHub</a>
+        <a href="#" style="text-decoration:none;color:#6b7280;">Dribbble</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- small script for keyboard accessibility (optional) -->
+  <script>
+    // make "Enter" trigger the demo form when focus is inside the inputs & textarea
+    // (This is just a tiny helper for the demo; remove or replace in production.)
+    (function(){ const form = document.querySelector('form'); form.addEventListener('keydown', function(e){ if(e.key === 'Enter' && (e.target.tagName !== 'TEXTAREA')) { e.preventDefault(); form.querySelector('button[type=submit]').click(); } }); })();
+  </script>
+</body>
+</html>
